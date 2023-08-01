@@ -1,9 +1,51 @@
+
+
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
+
+  /* * changes  */
+  /* max-width: 100%; */
+  border: 2px green solid;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
 }
+
+/*  */
+body {
+  margin: 0;
+  padding: 0;
+  /* *changes below  */
+  /* width: ; */
+}
+
+.app {
+  /* width: 100%; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* *changes below  */
+  width: 100%;
+  border: 1px solid pink;
+}
+
+.content {
+  /* *changed */
+  /* Assuming you want the content area to take up the remaining space */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* Add specific styles for the content area here */
+}
+
+
+/*  */
 
 .logo {
   height: 6em;
@@ -40,3 +82,26 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* App.css
+.app {
+  Assuming you want the entire app to take up the available height 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* Add any additional global styles for your app here 
+}
+
+.content {
+  Assuming you want the content area to take up the remaining space 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  Add specific styles for the content area here 
+}
+*/

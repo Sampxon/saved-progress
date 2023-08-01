@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-iimport React from 'react';
+import React from 'react';
 
 const EscrowRequest = () => {
   const handleEscrowRequest = () => {

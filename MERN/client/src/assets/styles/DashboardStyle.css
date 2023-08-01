@@ -1,0 +1,47 @@
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Dashboard Navigation */
+.dashboard-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.dashboard-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.dashboard-nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+}
+
+.dashboard-nav-link:hover {
+  background-color: #ddd;
+}
+
+.dashboard-nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
